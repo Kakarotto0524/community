@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Modified By:
  */
 @Controller
-public class HelloController {
+public class IndexController {
 
     @GetMapping("/")
     public String index(){ return "index"; }
